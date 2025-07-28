@@ -2,8 +2,6 @@
 
 This project explores model-based clustering of three-way data using sparse, penalized matrix-variate Gaussian mixture models. The goal is to extract interpretable pollution patterns across time, sensors, and pollutants from the Madrid air quality dataset.
 
-> This project was developed as part of a graduate-level statistics seminar. All modeling was implemented in **R**, using specialized libraries for multivariate analysis and sparse estimation.
-
 ---
 
 ## Objective
@@ -45,13 +43,6 @@ Given a 3D tensor of air quality measurements:
 - Sparsity in covariance structures enhanced interpretability.
 - Visualizations reveal strong patterns between NOx, O3, and traffic-linked pollutants.
 - Weak correlation between cluster assignments and external meteorological variables (e.g., temperature, humidity), suggesting pollution patterns are not trivially explained by weather alone.
-
----
-
-## Tech Stack
-
-- **Language**: R
-- **Key Libraries**: `mixvar`, `glasso`, `ggplot2`, `reshape2`
 
 ---
 
