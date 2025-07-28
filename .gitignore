@@ -1,0 +1,6 @@
+*.zip
+*.h5
+*.csv
+*.rdata
+csvs_per_year/
+sparsemixmat/
